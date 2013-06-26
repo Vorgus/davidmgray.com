@@ -1,0 +1,2 @@
+&CADDTitle=Drafting %26 Design
+&CADDDescription=Computer Aided Drafting %26 Design for Structural, Manufacturing, and Architectural Drafting.

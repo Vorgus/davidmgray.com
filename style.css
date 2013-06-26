@@ -1,0 +1,539 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #99cccc;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*CONTAINERS*/
+
+#SiteWrapper {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 987px;
+}
+
+#MenuWrapper {
+	position: relative;
+	top: 5px;
+	float: left;
+	width: 216px;
+}
+
+#MenuTop {
+	margin-left: auto;
+	margin-right: auto;
+	width: 216px;
+	height: 14px;
+	background-image: url(Elements/Images/Site/DropShadowTop_Small.png);
+	overflow: hidden;
+}
+
+#MenuBody {
+	margin-left: auto;
+	margin-right: auto;
+	width: 216px;
+	background-image: url(Elements/Images/Site/DropShadowMiddle_Small.png);
+	text-align: center;
+}
+
+#MenuBottom {
+	margin-left: auto;
+	margin-right: auto;
+	width: 216px;
+	height: 14px;
+	background-image: url(Elements/Images/Site/DropShadowBottom_Small.png);
+	overflow: hidden;
+}
+
+#MainWrapper {
+	float: right;
+	position: relative;
+	top: 5px;
+	left: 5px;
+	width: 766px;
+}
+
+#MainTop {
+	margin-left: auto;
+	margin-right: auto;
+	width: 766px;
+	height: 14px;
+	background-image: url(Elements/Images/Site/DropShadowTop.png);
+	overflow: hidden;
+}
+
+#MainBody{
+	width: 766px;
+	background-image: url(Elements/Images/Site/DropShadowMiddle.png);
+	background-repeat: repeat-y;
+}
+
+#MainBottom {
+	margin-left: auto;
+	margin-right: auto;
+	width: 766px;
+	height: 14px;
+	background-image: url(Elements/Images/Site/DropShadowBottom.png);
+	overflow: hidden;
+}
+
+#CADDFrontBlock {
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	width: 375px;
+	height: 370px;
+}
+
+#GADFrontBlock {
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	width: 375px;
+	height: 370px;
+}
+
+#TDCFrontBlock {
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+	height: 170px;
+	clear: both;
+}
+
+#OtherFrontBlock {
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+	height: 75px;
+}
+
+/*CLASSES*/
+
+.MenuBlock {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	text-align: left;
+	line-height:24px;
+	overflow: hidden;
+	padding: 0px 0px 0px 15px;
+}
+
+.GenericBlock {
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+	height: auto;
+	background: white;
+}
+
+.GenericTitleBlock {
+	margin-left: auto;
+	margin-right: auto;
+	width: 735px;
+	height: auto;
+	padding-left: 15px;
+	text-align: left;
+	background: white;
+}
+
+.GenericTextBlock {
+	margin-left: auto;
+	margin-right: auto;
+	width: 720px;
+	height: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+	text-indent: 30px;
+	background: white;
+}
+
+.ListBlock {
+	margin-left: auto;
+	margin-right: auto;
+	width: 720px;
+	height: auto;
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: white;
+}
+
+.ListLinkBlock {
+	float: left;
+	padding: 0px 10px 0px 10px;
+}
+
+.ClearBothBlock {
+	clear: both;
+}
+
+.Spacer {
+	margin-left: auto;
+	margin-right: auto;
+	height: 10px;
+}
+
+div.indent {
+	text-indent: 10px;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+hr.standard {
+	height:1px;
+	border-width:0;
+	color:#99cccc;
+	background-color:#99cccc;
+	width: 90%;
+}
+
+img.textmiddle {
+	border: 0px;
+	vertical-align:middle; 
+}
+
+img.texttop {
+	border: 0px;
+	vertical-align:top; 
+}
+
+img.textbottom {
+	border: 0px;
+	vertical-align:bottom; 
+}
+
+img.listtext {
+	border: 0px;
+	float: left;
+	margin-right: 5px;
+}
+
+div.GalleryBox {
+	height:160px;
+	width: auto;
+	margin: 2px;	text-align: center;
+}
+
+div.GalleryBox img {
+	border: 0px;
+	display: inline;
+	margin: 0px;
+}
+
+div.GalleryBox a:hover img {
+	position: relative;
+	top: 5px;
+	border: 3px;
+}
+
+/*==========FONTS==========*/
+
+.TitleText {
+	font-size: 30pt;
+	font-family: century gothic;
+}
+
+.SubTitleText {
+	font-size: 20pt;
+	font-family: century gothic;
+}
+
+.MinorTitleText {
+	font-size: 18pt;
+	font-family: century gothic;
+}
+
+.MinorSubTitleText {
+	font-size: 14pt;
+	font-family: century gothic;
+}
+
+.StandardText {
+	font-size: 11pt;
+	font-family: century gothic;
+}
+
+.Bold {
+	font-weight: bold;
+}
+
+.StandardText2 {
+	font-size: 11pt;
+	font-family: helvetica;
+}
+
+.SmallText {
+	font-size: 9pt;
+	font-family: helvetica;
+}
+
+.TinyText {
+	font-size: 7pt;
+	font-family: helvetica;
+}
+
+/*==========LINK FONTS==========*/
+
+a.MenuTitle:link {
+	text-decoration:none;
+	color:black;
+	font-family: century gothic;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+a.MenuTitle:visited {
+	text-decoration:none;
+	color:black;
+	font-family: century gothic;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+a.MenuTitle:hover {
+	text-decoration:none;
+	color: black;
+	font-family: century gothic;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+a.MenuTitle:active {
+	text-decoration:none;
+	color: black;
+	font-family: century gothic;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+a.MenuItem:link {
+	text-decoration:none;
+	color:black;
+	font-family: century gothic;
+	font-size: 11pt;
+}
+
+a.MenuItem:visited {
+	text-decoration:none;
+	color:black;
+	font-family: century gothic;
+	font-size: 11pt;
+}
+
+a.MenuItem:hover {
+	text-decoration:none;
+	color: black;
+	font-family: century gothic;
+	font-size: 12pt;
+}
+
+a.MenuItem:active {
+	text-decoration:none;
+	color: black;
+	font-family: century gothic;
+	font-size: 11pt;
+}
+
+a.StandardLinkTitle:link {
+	text-decoration:none;
+	color:black;
+	font-family: century gothic;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+a.StandardLinkTitle:visited {
+	text-decoration:none;
+	color:black;
+	font-family: century gothic;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+a.StandardLinkTitle:hover {
+	text-decoration:none;
+	color: black;
+	font-family: century gothic;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+a.StandardLinkTitle:active {
+	text-decoration:none;
+	color: black;
+	font-family: century gothic;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+a.StandardLink:link {
+	text-decoration:none;
+	color:blue;
+	font-family: century gothic;
+	font-size: 9pt;
+}
+
+a.StandardLink:visited {
+	text-decoration:none;
+	color:blue;
+	font-family: century gothic;
+	font-size: 9pt;
+}
+
+a.StandardLink:hover {
+	text-decoration:underline;
+	color: blue;
+	font-family: century gothic;
+	font-size: 9pt;
+}
+
+a.StandardLink:active {
+	text-decoration:none;
+	color: blue;
+	font-family: century gothic;
+	font-size: 9pt;
+}
+
+/*==========LIGHTBOX STYLES==========*/
+
+#lightbox {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+
+#lightbox img {
+	width: auto;
+	height: auto;
+}
+
+#lightbox a img{
+	border: none;
+}
+
+#outerImageContainer {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+#imageContainer {
+	padding: 10px;
+}
+
+#loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+
+#hoverNav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+
+#imageContainer>#hoverNav {
+	left: 0;
+}
+
+#hoverNav a {
+	outline: none;
+}
+
+#prevLink, #nextLink {
+	width: 49%;
+	height: 100%;
+	background-image: url(data:image/gif;base64,AAAA);
+	/* Trick IE into showing hover */
+	display: block; }
+
+#prevLink {
+	left: 0;
+	float: left;
+}
+
+#nextLink {
+	right: 0;
+	float: right;
+}
+
+#prevLink:hover, #prevLink:visited:hover {
+	background: url(Elements/Images/Lightbox/prevlabel.gif) left 15% no-repeat;
+}
+
+#nextLink:hover, #nextLink:visited:hover {
+	background: url(Elements/Images/Lightbox/nextlabel.gif) right 15% no-repeat;
+}
+
+#imageDataContainer {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+}
+
+#imageData {
+	padding:0 10px;
+	color: #666;
+}
+
+#imageData #imageDetails {
+	width: 70%;
+	float: left;
+	text-align: left;
+}
+
+#imageData #caption {
+	font-weight: bold;
+}
+
+#imageData #numberDisplay {
+	display: block;
+	clear: left;
+	padding-bottom: 1.0em;
+}
+
+#imageData #bottomNavClose {
+	width: 66px;
+	float: right; 
+	padding-bottom: 0.7em;
+	outline: none;
+}
+
+
+#overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+}
